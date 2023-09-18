@@ -1,0 +1,92 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\2022 vscode projects\\emailServer\\emailServer\\emailServer.csproj": {}
+  },
+  "projects": {
+    "D:\\2022 vscode projects\\emailServer\\emailServer\\emailServer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\2022 vscode projects\\emailServer\\emailServer\\emailServer.csproj",
+        "projectName": "emailServer",
+        "projectPath": "D:\\2022 vscode projects\\emailServer\\emailServer\\emailServer.csproj",
+        "packagesPath": "C:\\Users\\Range\\.nuget\\packages\\",
+        "outputPath": "D:\\2022 vscode projects\\emailServer\\emailServer\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Range\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "MailKit": {
+              "target": "Package",
+              "version": "[4.2.0, )"
+            },
+            "MimeKit": {
+              "target": "Package",
+              "version": "[4.2.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
+            "RuriLib.Http": {
+              "target": "Package",
+              "version": "[1.0.1, )"
+            },
+            "RuriLib.Parallelization": {
+              "target": "Package",
+              "version": "[1.0.6, )"
+            },
+            "RuriLib.Proxies": {
+              "target": "Package",
+              "version": "[1.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
